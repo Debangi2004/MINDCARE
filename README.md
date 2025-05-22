@@ -13,23 +13,12 @@ Here're some of the project's best features:
 *   Conversational
 *   Multilingual
 *   Mental Health support
-   
-![Screenshot from 2025-01-21 15-06-06](https://github.com/user-attachments/assets/9a5852e9-96ba-4c42-bf4a-bd50622c417c)
-
+  
 # How to Set Up it?
 
 The following instructions were tested on the Windows and Linux with Python 3.8.
 
-1. Clone this repository
-
-```
-git clone https://github.com/Rogendo/Mental-health-Chatbot.git
-```
-```
-cd Mental-health-Chatbot/
-```
-
-2. Create and activate virtual environment 
+1. Create and activate virtual environment 
 
 ```
 python -m venv venv
@@ -42,15 +31,15 @@ on Windows system
 ```
 .\venv\Scripts\activate.bat
 ```
-3. Install requirements
+2. Install requirements
 
 ```
 pip install  -r requirements.txt
 ```
 
-4. Run the 
+3. Run the 
 ```
-flask --app app --debug run
+python app.py
 
 ```
 
